@@ -19,9 +19,18 @@
 .logo img{
     object-fit: cover;
 }
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+.search{
+    width: 50%;
+}
 .button{
     margin: 0 20px;
-    width: 15%;
+    width: 25%;
     display: flex;
     justify-content:end;
     height: 40px;
