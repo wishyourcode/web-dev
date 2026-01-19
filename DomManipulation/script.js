@@ -1,3 +1,18 @@
+/*==============================
+================================
+================================*/
+//change the inner data and styling them
+//1,select the element
+let h1 = document.querySelector("h1");
+//2. change the inner text
+h1.innerText = "Radha Radha";
+//3. style them
+h1.style.color = "white";
+h1.style.backgroundColor = "maroon";
+
+/*==============================
+================================
+================================*/
 //steps to add element
 //1. create element
 let img = document.createElement("img");
@@ -12,11 +27,26 @@ let logo = document.querySelector(".logo");
 logo.prepend(img);
 img.classList.add("logo");
 
+/*==============================
+================================
+================================*/
 //steps to remove element
-
 ///1. select element want to remoove select parents
 let ul = document.querySelector("ul");
 //2.select child that want to remove
 let li = document.querySelector("li");
 //3. remove it
 ul.removeChild(li);
+
+/*==============================
+================================
+================================*/
+//add class to the items
+
+//1.select items
+let liItem = document.querySelectorAll("ul li:nth-child(2n)");
+console.log(liItem);
+//2.add class
+liItem.forEach(function (item) {
+  item.classList.add("highlight");
+});
