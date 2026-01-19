@@ -5,6 +5,12 @@
 //1,select the element
 let h1 = document.querySelector("h1");
 //2. change the inner text
+// innertext change the only data that are currently visible on the display
+// if there any any data that is hidden by css properties
+// that data will not be change by innertext
+// but if we are using innerContent then complete data will be change
+//  does not matter you had hide then using css like display none
+//  and all complete data will be changes
 h1.innerText = "Radha Radha";
 //3. style them
 h1.style.color = "white";
