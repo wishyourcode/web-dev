@@ -27,4 +27,8 @@ opt.addEventListener("change", function (element) {
   ans.innerText = `${element.target.value} Selected`;
 });
 
-//displaying selected data
+//displaying selected data FROM WHOLE SCREEN
+let head = document.querySelector(".heading");
+window.addEventListener("keydown", function (element) {
+  head.innerText = element.key;
+});
