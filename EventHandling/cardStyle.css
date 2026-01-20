@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+.form{
+    text-align: center;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.form input{
+    padding: 4px;
+    margin: 5px;
+}
+.form .submit{
+    background-color: #43ac74;
+    border:none;
+    color: white;
+    border:3px solid rgb(78, 105, 65);
+    border-radius: 5px;
+    font-size: 20px;
+}
+.parentcard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    margin: 20px;
+    max-width: 20%;
+    min-width: 18%;
+    border: 5px double rgb(80, 139, 80);
+    border-radius: 10px;
+}
+.card img{
+    width: 100%;
+    overflow: hidden;
+}
+.detailed h1{
+    text-align: center;
+    padding-top: 10px;
+}
+.detailed h3{
+    font-size: 20px;
+    padding: 10px;
+}
+.detailed p{
+    padding: 10px;
+    text-decoration: double;
+}
