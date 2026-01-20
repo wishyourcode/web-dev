@@ -11,3 +11,20 @@ p.addEventListener("click", function () {
 /*
 there are one keyword removeEventListener same as addEventListener
 */
+
+// fetching data from input
+let inp = document.querySelector("input");
+inp.addEventListener("input", function (element) {
+  if (element.data !== null) {
+    console.log(element.data);
+  }
+});
+
+let ans = document.querySelector(".selectedtext");
+//fetching selected items from ui
+let opt = document.querySelector("select");
+opt.addEventListener("change", function (element) {
+  ans.innerText = `${element.target.value} Selected`;
+});
+
+//displaying selected data
