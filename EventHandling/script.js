@@ -32,3 +32,18 @@ let head = document.querySelector(".heading");
 window.addEventListener("keydown", function (element) {
   head.innerText = element.key;
 });
+
+//file upload handling
+
+let btn = document.querySelector("#btn");
+let fileinp = document.querySelector("#fileinp");
+btn.addEventListener("click", function () {
+  fileinp.click();
+});
+//displaying the files name
+fileinp.addEventListener("change", function (element) {
+  let file = element.target.files[0];
+  if (file) {
+    btn.innerText = file.name;
+  }
+});
