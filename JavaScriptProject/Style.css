@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.parentcard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*
+make card height with same height and width
+add margin between cards
+*/
+.card{
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 4px 8px 0 rgba(63, 41, 172, 0.2);
+    margin: 20px;
+    border-radius: 10px;
+    transition: 0.9s;
+}
+/*make image responsive 
+make all image with same height and width */
+.card img{
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+.detailed h1{
+    text-align: center;
+    padding-top: 10px;
+}
+.detailed h3{
+    font-size: 20px;
+    padding: 10px;
+}
+.detailed p{
+    padding: 10px;
+    text-decoration: double;
+}
