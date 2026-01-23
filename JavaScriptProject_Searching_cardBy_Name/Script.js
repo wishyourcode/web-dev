@@ -95,9 +95,17 @@ function showUsers(arr) {
     detailed.appendChild(p);
     card.appendChild(img);
     card.appendChild(detailed);
-    console.dir(card);
-    parentcard.prepend(card);
+    parentcard.appendChild(card);
   });
 }
 
 showUsers(users);
+
+let search = document.querySelector("#search");
+search.addEventListener("input", function () {
+  let newUser = users.filter((user) => {
+    return user.name.startsWith(search.value);
+  });
+  parentcard.innerHTML = "";
+  showUsers(newUser);
+});
