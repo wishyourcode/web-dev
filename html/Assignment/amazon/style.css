@@ -6,17 +6,32 @@
 }
 .header{
     padding: 10px 10px;
-    background-color: #4075b5;
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
+.left{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
 .left img{
+    object-fit: cover;
     width: 40px;
-    border-radius: 50%;
+    border-radius: 10%;
+}
+.left input{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 12vw;
 }
 .right{
+    margin-right: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -24,13 +39,15 @@
 }
 .right button{
     padding: 10px 20px;
-    background-color: #fff;
+    background-color: #6171e3;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    color: #fff;
 }
 /*height: 40vh*/
 .hero{
+    background-color: rgb(244 242 238);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -49,4 +66,64 @@ footer{
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+/* login  */
+.main{
+    background-color: rgb(244 242 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 86vh;
+    color: aliceblue;
+}
+.form{
+    background-color: #4075b5;
+    padding: 60px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.form input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.lower{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+.lower a{
+    color: #fff;
+    text-decoration: none;
+}
+.radio{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.button{
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #5fd2459e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    width: 100%;
+}
+.lower button{
+    background-color: #5fd2459e;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: medium;
 }
