@@ -70,6 +70,10 @@ footer{
 }
 .lower{
     padding: 90px;
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center
 }
 .lower img{
     width: 200px;
@@ -80,6 +84,10 @@ footer{
 .color{
 color: rgb(230, 160, 39);
 }
+.footerButton{
+    display: flex;
+    flex-direction: row;
+}
 .footerButton button{
     margin: 10px;
     padding: 10px;
@@ -89,6 +97,12 @@ color: rgb(230, 160, 39);
 }
 .footerButton .b2{
     background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.footerButton .b2 img{
+    width: 25px;
 }
 .hrline{
     background-color: #fff;
