@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.mid{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+.right button{
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.main{
+    
+    background-color: rgb(237, 141, 31);
+    padding: 20px;
+}
+.written{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+.parent{
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card img{
+    width: 10%;
+    height: auto;
+    border-radius: 10px;
+}
+footer{
+    height: 40%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    text-align: center;
+}
+.lower{
+    padding: 90px;
+}
+.lower img{
+    width: 200px;
+}
+.lower h5,h1{
+    padding: 15px;
+}
+.color{
+color: rgb(230, 160, 39);
+}
+.footerButton button{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(228, 150, 41);
+    color: white;
+    border-radius: 10px;
+}
+.footerButton .b2{
+    background-color: grey;
+}
+.hrline{
+    background-color: #fff;
+    color: #fff;
+}
+.footLower{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+    padding: 10px;
+}
+.term{
+    display: flex;
+    flex-direction: row;
+}
