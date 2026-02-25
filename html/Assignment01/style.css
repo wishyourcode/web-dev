@@ -78,9 +78,6 @@ footer{
 .lower img{
     width: 200px;
 }
-.lower h5,h1{
-    padding: 15px;
-}
 .color{
 color: rgb(230, 160, 39);
 }
@@ -111,10 +108,16 @@ color: rgb(230, 160, 39);
 .footLower{
     display: flex;
     flex-direction: row;
-    justify-content:space-around ;
+    justify-content:space-between;
     padding: 10px;
 }
 .term{
     display: flex;
     flex-direction: row;
+}
+.left{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-left: 10px;
 }
