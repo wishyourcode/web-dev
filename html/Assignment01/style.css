@@ -121,3 +121,6 @@ color: rgb(230, 160, 39);
     gap: 15px;
     padding-left: 10px;
 }
+.right img{
+    width: 20px;
+}
